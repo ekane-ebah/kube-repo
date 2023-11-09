@@ -102,4 +102,5 @@ Services
 
 kubectl port-forward service/my-app 8080:80 # To port forward your service so you can access on your localhost
 
-minikube service my-app --url # Specific to minikube only. Used to get the url to access your app running on localhost
+minikube service my-app --url # Specific to minikube only. Used to get the url to access your app running on localhos
+notepad ~/.kube/config
